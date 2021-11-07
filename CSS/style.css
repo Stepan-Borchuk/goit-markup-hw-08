@@ -1,0 +1,32 @@
+/* text color 1  #212121*/
+/* logo color 1 #000000 */
+/* text color 2 #757575 */
+/* white #FFFFFF */
+/* accent background: #2196F3; */
+/* background 1 #E5E5E5 */
+/* background 2 #2F303A; */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-background-color: #e5e5e5;
+}
+
+.logo {
+  color: var(--primary-text-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
