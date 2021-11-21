@@ -1,7 +1,30 @@
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--second-text-color);
 }
+
+img {
+  display: block;
+}
+
+address {
+  font-style: normal;
+}
+
 
 :root {
   --main-text-color: #212121;
@@ -62,6 +85,7 @@ body {
 }
 
 .button-primary {
+  
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -126,6 +150,7 @@ body {
 }
 
 .hero-button {
+ 
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -189,10 +214,11 @@ body {
 
 /* ------------------filter------------------------ */
 .filter-button {
+ 
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  cursor: pointer;
+ cursor: pointer;
 
   text-align: center;
   letter-spacing: 0.03em;
