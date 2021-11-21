@@ -5,23 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Second task</title>
+    <title>Third task</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./CSS/style.css">
 
 
 </head>
 
 <body>
+    
     <!-- шапка -->
     <header class="header">
-
-        <nav class="header-navigation">
-            <nav>
+        <div class="container">    
+        <nav class="header-container">
+            <nav class="header-navigation">
                 <a class="header-logo" href="/">
                     <span class="logo">Web</span>Studio
                 </a>
@@ -34,25 +38,29 @@
             </nav>
 
             <ul class="header-list list">
-                <li><a class="button-primary link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="button-primary link" href="tel:380961111111">+38 096 111 11 11</a></li>
+                <li class="contact-item"><a class="button-primary link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="contact-item"><a class="button-primary link" href="tel:380961111111">+38 096 111 11 11</a></li>
             </ul>
         </nav>
+        </div>
     </header>
+    
     <main>
         <!-- герой/банер -->
         <div class="hero">
             <!-- банер  -->
-            <section>
+            <div class="hero-container">
+            <section class="hero-main">
                 <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
                 <button class="hero-button" type="button">
                     Заказать услугу
                 </button>
             </section>
-
+            </div>
         </div>
         <!-- преваги/блог -->
         <section class="benefits">
+            <div class="benefits-container">
             <h2 class="visually-hidden"> Принципи роботи </h2>
 
             <ul class="benefits-list list">
@@ -61,46 +69,50 @@
                     <p class="benefits-text">Идейные соображения, а также начало повседневной работы по формированию
                         позиции.</p>
                 </li>
-                <li>
+                <li class="benefits-item">
                     <h3 class="benefits-tittle">Пунктуальность</h3>
                     <p class="benefits-text">Задача организации, в особенности же рамки и место обучения кадров влечет
                         за собой.</p>
                 </li>
-                <li>
+                <li class="benefits-item">
                     <h3 class="benefits-tittle">Планирование</h3>
                     <p class="benefits-text">Равным образом консультация с широким активом в значительной степени
                         обуславливает.</p>
                 </li>
-                <li>
+                <li class="benefits-item">
                     <h3 class="benefits-tittle">Современные технологии</h3>
                     <p class="benefits-text">Значимость этих проблем настолько очевидна, что реализация плановых
                         заданий.</p>
                 </li>
             </ul>
+            </div>
         </section>
         <!-- приклади -->
         <section class="examples">
-            <h2 class="examples-title"> Чем мы занимаемся </h2>
-            <ul class="list">
-                <li>
+            <div class="examples-container">
+            <h2 class="examples-title section-title "> Чем мы занимаемся </h2>
+            <ul class="examles-list list">
+                <li  class="examples-item">
                     <img src="./images/img1.jpg" alt="box1" width="370">
                     <h3 class="visually-hidden">Pic name</h3>
 
                 </li>
-                <li>
+                <li class="examples-item">
                     <img src="./images/img2.jpg" alt="box2" width="370">
                     <h3 class="visually-hidden">Pic name</h3>
                 </li>
-                <li>
+                <li class="examples-item">
                     <img src="./images/img3.jpg" alt="box3" width="370">
                     <h3 class="visually-hidden">Pic name</h3>
                 </li>
 
             </ul>
+            </div>
         </section>
-        <!-- відгуки -->
+        <!-- команда-->
         <section class="comand">
-            <h2 class="comand-title">Наша команда</h2>
+            <div class="comand-container">
+            <h2 class="comand-title section-title ">Наша команда</h2>
             <ul class="comand-list list">
                 <li class="comand-item">
                     <img src="./images/img4.jpg" alt="Игорь Демьяненко" width="270">
@@ -123,18 +135,22 @@
                     <p class="comand-job">UI Designer</p>
                 </li>
             </ul>
+            </div>
         </section>
     </main>
+
+
     <footer class="footer">
+        <div class="footer-container">
         <a class="footer-logo" href="/">
             <span class="logo">Web</span>Studio
         </a>
         <address class="footer-contact">
             <p class="footer-adress">г. Киев, пр-т Леси Украинки, 26</p>
-            <a class="footer-mail link" href="mailto:info@example.com">info@example.com</a>
+            <a class="footer-mail link" href="mailto:info@example.com">info@example.com</a> <br>
             <a class="footer-tel link" href="tel:+380991111111">+38 099 111 11 11</a>
         </address>
-
+        </div>
     </footer>
 
 </body>
