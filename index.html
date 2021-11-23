@@ -20,11 +20,11 @@
 </head>
 
 <body>
-    
-    <!-- шапка -->
+    <div class="page-container">
+        <!-- шапка -->
     <header class="header">
-        <div class="container">    
-        <nav class="header-container">
+         
+        <nav class="header-container container">
             <nav class="header-navigation">
                 <a class="header-logo" href="./">
                     <span class="logo">Web</span>Studio
@@ -42,14 +42,14 @@
                 <li class="contact-item"><a class="button-primary link" href="tel:380961111111">+38 096 111 11 11</a></li>
             </ul>
         </nav>
-        </div>
+    
     </header>
     
     <main>
         <!-- герой/банер -->
         <div class="hero">
             <!-- банер  -->
-            <div class="hero-container">
+            <div class="hero-container container">
             <section class="hero-main">
                 <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
                 <button class="hero-button" type="button">
@@ -60,7 +60,7 @@
         </div>
         <!-- преваги/блог -->
         <section class="benefits">
-            <div class="benefits-container">
+            <div class="benefits-container container">
             <h2 class="visually-hidden"> Принципи роботи </h2>
 
             <ul class="benefits-list list">
@@ -89,7 +89,7 @@
         </section>
         <!-- приклади -->
         <section class="examples">
-            <div class="examples-container">
+            <div class="examples-container container">
             <h2 class="examples-title section-title "> Чем мы занимаемся </h2>
             <ul class="examles-list list">
                 <li  class="examples-item">
@@ -111,28 +111,36 @@
         </section>
         <!-- команда-->
         <section class="comand">
-            <div class="comand-container">
+            <div class="comand-container container">
             <h2 class="comand-title section-title ">Наша команда</h2>
             <ul class="comand-list list">
                 <li class="comand-item">
                     <img src="./images/img4.jpg" alt="Игорь Демьяненко" width="270">
+                    <div class="comand-content">
                     <h3 class="comand-member">Игорь Демьяненко</h3>
                     <p class="comand-job">Product Designer</p>
+                    </div>
                 </li>
                 <li class="comand-item">
                     <img src="./images/img5.jpg" alt="Ольга Репина" width="270">
+                    <div class="comand-content">
                     <h3 class="comand-member">Ольга Репина</h3>
                     <p class="comand-job">Frontend Developer</p>
+                    </div>
                 </li>
                 <li class="comand-item">
                     <img src="./images/img6.jpg" alt="Николай Тарасов" width="270">
+                    <div class="comand-content">
                     <h3 class="comand-member">Николай Тарасово</h3>
                     <p class="comand-job">Marketing</p>
+                    </div>
                 </li>
                 <li class="comand-item">
                     <img src="./images/img7.jpg" alt="Михаил Ермаков" width="270">
+                    <div class="comand-content">
                     <h3 class="comand-member">Михаил Ермаков</h3>
                     <p class="comand-job">UI Designer</p>
+                    </div>
                 </li>
             </ul>
             </div>
@@ -141,18 +149,18 @@
 
 
     <footer class="footer">
-        <div class="footer-container">
+        <div class="footer-container container">
         <a class="footer-logo" href="./">
             <span class="logo">Web</span>Studio
         </a>
         <address class="footer-contact">
-            <p class="footer-adress">г. Киев, пр-т Леси Украинки, 26</p>
-            <a class="footer-mail link" href="mailto:info@example.com">info@example.com</a> <br>
-            <a class="footer-tel link" href="tel:+380991111111">+38 099 111 11 11</a>
+            <p class="footer-adress  contact-container">г. Киев, пр-т Леси Украинки, 26</p>
+            <a class="footer-mail link  contact-container" href="mailto:info@example.com">info@example.com</a>
+            <a class="footer-tel link  contact-container" href="tel:+380991111111">+38 099 111 11 11</a>
         </address>
         </div>
     </footer>
-
+    </div>
 </body>
 
 </html>
