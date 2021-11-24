@@ -72,10 +72,10 @@ address {
   margin-bottom: 50px;
 }
 
-.page-container {
+/* .page-container {
   width: 1600px;
   margin: 0 auto;
-}
+} */
 
 .container {
   display: flex;
@@ -282,12 +282,13 @@ address {
 /* ------------------EXAMPLES------------------------- */
 .examples-container {
   flex-direction: column;
-  padding-bottom: 94px;
+  /* padding-bottom: 94px; */
 }
 
 .examles-list {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 94px;
 }
 
 .example-item {
@@ -308,12 +309,12 @@ address {
 
 .comand-container {
   flex-direction: column;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  /* padding-top: 94px;
+  padding-bottom: 94px; */
 }
 
 .comand-title {
-  /* padding-top: 94px; */
+  padding-top: 94px;
   color: var(--main-text-color);
 }
 
@@ -322,16 +323,19 @@ address {
   flex-wrap: wrap;
   margin-right: -30px;
   margin-bottom: -30px;
+  padding-bottom: 94px;
 }
 
 .comand-item {
   flex-basis: calc(100% / 4 - 30px);
+  background-color: #fff;
   margin-right: 30px;
   margin-bottom: 30px;
 }
 
 .comand-content {
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .comand-member {
