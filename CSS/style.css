@@ -247,16 +247,16 @@ address {
 }
 
 /* ------------------BENEFITS-------------------------- */
-/* .benefits-container {
+.benefits {
   padding-top: 94px;
   padding-bottom: 94px;
-} */
+}
 
 .benefits-list {
   display: flex;
   justify-content: space-between;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  /* padding-top: 94px;
+  padding-bottom: 94px; */
 }
 
 .benefits-item:not(:last-child) {
@@ -280,6 +280,11 @@ address {
   letter-spacing: 0.03em;
 }
 /* ------------------EXAMPLES------------------------- */
+
+.examples {
+  padding-bottom: 94px;
+}
+
 .examples-container {
   flex-direction: column;
   /* padding-bottom: 94px; */
@@ -288,10 +293,6 @@ address {
 .examles-list {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 94px;
-}
-
-.example-item {
 }
 
 .example-item:not(:last-child) {
@@ -305,6 +306,8 @@ address {
 /* ------------------COMAND------------------------ */
 .comand {
   background-color: var(--btn-bkground-v2);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .comand-container {
@@ -314,7 +317,6 @@ address {
 }
 
 .comand-title {
-  padding-top: 94px;
   color: var(--main-text-color);
 }
 
@@ -323,7 +325,6 @@ address {
   flex-wrap: wrap;
   margin-right: -30px;
   margin-bottom: -30px;
-  padding-bottom: 94px;
 }
 
 .comand-item {
@@ -356,18 +357,23 @@ address {
 }
 
 /* ------------------------------------------PORTFOLIO------------------------------------------------ */
+.filter {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 .portfolio-container {
   flex-direction: column;
   align-items: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  /* padding-top: 100px;
+  padding-bottom: 100px; */
 }
 /* ------------------filter------------------------ */
 .filter-list {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 9px;
-  margin-bottom: 34px;
+  /* padding-bottom: 9px; */
+  margin-bottom: 50px;
 }
 
 .filter-item:not(:last-child) {
