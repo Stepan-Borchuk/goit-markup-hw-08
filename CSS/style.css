@@ -131,7 +131,7 @@ address {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
-  transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link:focus,
@@ -149,6 +149,7 @@ address {
   color: var(--second-text-color);
   cursor: pointer;
   align-items: center;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-item:not(:last-child) {
@@ -244,7 +245,7 @@ margin-bottom: 20px;
   align-items: center;
   color: #fff;
   background-color: rgba(255, 255, 255, 0.1);;
-
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .comand-social-icon {
@@ -318,8 +319,7 @@ fill: currentColor;
 
 .benefits-list {
   display: flex;
-  justify-content: space-between; /* padding-top: 94px;
-  padding-bottom: 94px; */
+  justify-content: space-between; 
 }
 
 .benefits-item {
@@ -386,14 +386,12 @@ justify-content: center;
   background-color: var(--btn-bkground-v2);
   padding-top: 94px;
   padding-bottom: 94px;
-  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
+ 
 }
 
 .comand-container {
   flex-direction: column;
-   /* padding-top: 94px;
-  padding-bottom: 94px; */
-  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
+ 
   
 }
 
@@ -413,11 +411,11 @@ justify-content: center;
   background-color: #fff;
   margin-right: 30px;
   margin-bottom: 30px;
-  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .comand-item:hover
-.comand-item: {
+.comand-item:focus {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
@@ -467,7 +465,7 @@ justify-content: center;
   justify-content: center;
   align-items: center;
   color: #AFB1B8;
-
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .comand-social-icon {
@@ -514,6 +512,7 @@ fill: currentColor;
   justify-content: center;
   align-items: center;
   color: #AFB1B8;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
  .clients-icon {
@@ -564,9 +563,9 @@ fill: currentColor;
   color: var(--main-text-color);
   background-color: var(--btn-bkground-v2);
   border-radius: 4px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.filter-button:active,
 .filter-button:focus,
 .filter-button:hover {
   color: var(--hero-text-color);
@@ -599,6 +598,7 @@ fill: currentColor;
   background-color: #fff;
   margin-right: 30px;
   margin-bottom: 30px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .results-item:hover,
