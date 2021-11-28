@@ -131,7 +131,7 @@ address {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link:focus,
@@ -149,7 +149,7 @@ address {
   color: var(--second-text-color);
   cursor: pointer;
   align-items: center;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-item:not(:last-child) {
@@ -245,7 +245,7 @@ margin-bottom: 20px;
   align-items: center;
   color: #fff;
   background-color: rgba(255, 255, 255, 0.1);;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .comand-social-icon {
@@ -391,9 +391,7 @@ justify-content: center;
 
 .comand-container {
   flex-direction: column;
- 
-  
-}
+ }
 
 .comand-title {
   color: var(--main-text-color);
@@ -411,11 +409,6 @@ justify-content: center;
   background-color: #fff;
   margin-right: 30px;
   margin-bottom: 30px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.comand-item:hover
-.comand-item:focus {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
@@ -465,7 +458,7 @@ justify-content: center;
   justify-content: center;
   align-items: center;
   color: #AFB1B8;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .comand-social-icon {
@@ -512,7 +505,7 @@ fill: currentColor;
   justify-content: center;
   align-items: center;
   color: #AFB1B8;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
  .clients-icon {
@@ -563,7 +556,9 @@ fill: currentColor;
   color: var(--main-text-color);
   background-color: var(--btn-bkground-v2);
   border-radius: 4px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+  color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  filter 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filter-button:focus,
@@ -571,19 +566,10 @@ fill: currentColor;
   color: var(--hero-text-color);
   background-color: var(--btn-bkground-v1);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  border-radius: 4px;
+  
 }
 
 /* ------------------Results------------------------ */
-
-
-.comand-item {
-  flex-basis: calc(100% / 4 - 30px);
-  background-color: #fff;
-  margin-right: 30px;
-  margin-bottom: 30px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
 
 .results-list {
   display: flex;
@@ -598,7 +584,7 @@ fill: currentColor;
   background-color: #fff;
   margin-right: 30px;
   margin-bottom: 30px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: filter 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .results-item:hover,
