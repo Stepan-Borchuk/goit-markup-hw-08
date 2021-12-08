@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/components/social.scss"
+    ],
+    "names": [],
+    "file": "social.min.css"
+}

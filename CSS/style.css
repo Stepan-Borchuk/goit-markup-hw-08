@@ -1,4 +1,4 @@
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -30,9 +30,9 @@ img {
 
 address {
   font-style: normal;
-}
+} */
 
-:root {
+/* :root {
   --main-text-color: #212121;
   --hover-text-color: #2196f3;
   --hero-text-color: #fff;
@@ -40,17 +40,17 @@ address {
   --btn-bkground-v1: #2196f3;
   --btn-bkground-v2: #f5f4fa;
   --background-color: #2f303a;
-}
+} */
 
-.list {
+/* .list {
   list-style: none;
 }
 
 .link {
   text-decoration: none;
-}
+} */
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -61,27 +61,27 @@ address {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-}
+} */
 
-.section-title {
+/* .section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
-}
+} */
 
-.container {
+/* .container {
   display: flex;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-}
+} */
 
 /* ------------------HEADER-------------------------- */
-.header {
+/* .header {
   padding-top: 25px;
   padding-bottom: 32px;
   border-bottom: 1px solid #ececec;
@@ -144,9 +144,9 @@ address {
   position: absolute;
   left: 0;
   bottom: -28px;
-}
+} */
 
-.button-primary {
+/* .button-primary {
   display: flex;
   font-family: inherit;
   font-weight: 500;
@@ -166,15 +166,15 @@ address {
 .button-primary:focus,
 .button-primary:hover {
   color: var(--hover-text-color);
-}
+} */
 
-.mail-icon {
+/* .mail-icon {
   fill: currentColor;
   margin-right: 10px;
-}
+} */
 
 /* ------------------FOOTER-------------------------- */
-.footer {
+/* .footer {
   background-color: var(--background-color);
   color: #fff;
   padding-top: 60px;
@@ -323,7 +323,7 @@ color: #FFFFFF;
 .footer-submit-send {
   margin-left: 10px;
   fill: currentColor;
-}
+} */
 
 
 
@@ -331,7 +331,7 @@ color: #FFFFFF;
 
 /* ------------------HERO-------------------------- */
 
-.hero {
+/* .hero {
   width: 1600px;
   margin: 0 auto;
   background-color: var(--background-color);
@@ -364,9 +364,9 @@ color: #FFFFFF;
   width: 696px;
   height: 120px;
   margin-bottom: 30px;
-}
+} */
 
-.hero-button {
+/* .hero-button {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -382,10 +382,10 @@ color: #FFFFFF;
   border: none;
   border-radius: 4px;
   margin: 0 auto;
-}
+} */
 
 /* ------------------BENEFITS-------------------------- */
-.benefits {
+/* .benefits {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -429,7 +429,7 @@ color: #FFFFFF;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-}
+} */
 
 /* ------------------EXAMPLES------------------------- */
 
@@ -531,7 +531,7 @@ color: #FFFFFF;
   margin-bottom: 16px;
 }
 
-.comand-social-list {
+/* .comand-social-list {
   display: flex;
   justify-content: center;
 }
@@ -565,11 +565,11 @@ color: #FFFFFF;
 .comand-social-link:hover {
   background-color: var(--hover-text-color);
   color: var(--hero-text-color);
-}
+} */
 
 /* ------------------Clients------------------------ */
 
-.clients {
+/* .clients {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -613,11 +613,11 @@ color: #FFFFFF;
 .clients-link:hover {
   border-color: var(--hover-text-color);
   color: var(--hover-text-color);
-}
+} */
 
 /* ------------------modalka------------------------- */
 
-.backdrop {
+/* .backdrop {
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.2);
@@ -800,9 +800,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 /* justify-content: space-between; */
-
-
-}
+/* }
 
 
 .check-text span {
@@ -823,7 +821,7 @@ align-items: center;
   background: #2196F3;
   border: none;
    
-  }
+  } */
 
 /* .check-text::before {
   content: '';
@@ -839,12 +837,12 @@ border-radius: 2px;
 background-color: darkmagenta;
 } */
 
-
+/* 
 .check-link {
   text-decoration-line: underline;
   color: #2196F3;
   margin-left: 5px;
-}
+} */ */
 
 
 
@@ -871,7 +869,7 @@ background-color: darkmagenta;
   margin-right: 8px;
 }
 
-.filter-button {
+/* .filter-button {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -894,7 +892,7 @@ background-color: darkmagenta;
   color: var(--hero-text-color);
   background-color: var(--btn-bkground-v1);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
+} */
 
 /* ------------------Results------------------------ */
 
