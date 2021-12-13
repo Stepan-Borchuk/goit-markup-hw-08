@@ -4,11 +4,11 @@
     padding-bottom: 94px;
   }
   
-  .comand-container {
+  .comand__container {
     flex-direction: column;
   }
   
-  .comand-title {
+  .comand__title {
     color: var(--main-text-color);
   }
   
@@ -19,7 +19,7 @@
     margin-bottom: -30px;
   }
   
-  .comand-item {
+  .comand-list__item {
     flex-basis: calc(100% / 4 - 30px);
     background-color: #fff;
     margin-right: 30px;
@@ -27,25 +27,20 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   }
   
-  .comand-content {
+  .comand-list__content {
     padding-top: 30px;
     padding-bottom: 30px;
   }
   
-  .comand-member {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
+  .comand-list__member {
+    @include text(500, 16px, 1.19);
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--main-text-color);
     margin-bottom: 10px;
   }
   
-  .comand-job {
-    font-size: 16px;
-    line-height: 1.19;
+  .comand-list__job {
+    @include text(400, 16px, 1.19);
     text-align: center;
-    letter-spacing: 0.03em;
     margin-bottom: 16px;
   }
