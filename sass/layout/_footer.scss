@@ -73,7 +73,7 @@
     margin-left: 93px;
   }
   
-  .footer__form-title {
+  .footer-form__title {
   @include text();
   text-transform: uppercase;
   color: #FFFFFF;
@@ -85,7 +85,7 @@
     height: 50px;
   }
   
-  .footer-input {
+  .footer-form__input {
     @include text(400, 16px, 1.25);
   width: 358px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -97,7 +97,7 @@
   color: rgba(255, 255, 255, 0.6);
   }
   
-  .footer-submit-send {
+  .footer-form__submit-send {
     margin-left: 10px;
     fill: currentColor;
   }
