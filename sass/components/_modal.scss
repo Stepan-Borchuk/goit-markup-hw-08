@@ -19,7 +19,8 @@
 
 
 .modal {
-  width: 528px;
+  // width: 528px;
+  width: 94%;
   min-height: 581px;
   background-color: #fff;
   position: absolute;
@@ -33,6 +34,12 @@ border-radius: 4px;
   transition: transform 1000ms;
   transform-origin: top left;
   padding: 40px;
+  @media screen and (min-width: 480px) {
+    width: 450px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 528px;
+  }
 }
 
 .modal__close {
@@ -57,10 +64,14 @@ border-radius: 4px;
 }
 
 .modal__title {
-  @include text(700, 20px, 1.15);
+  @include text(700, 20px, 1.5);
 text-align: center;
 color: #212121;
 margin-bottom: 12px;
+@media screen and (min-width: 1200px) {
+  @include text(700, 20px, 1.15);
+}
+
 }
 
 .modal-form__field {
@@ -135,7 +146,7 @@ margin-bottom: 12px;
 
 .form__check-text {
   @include flex();
-  @include text(400, 14px, 1.71);
+  @include text(400, 12px, 1.16);
   color: #757575;
   span {
   width: 16px;
@@ -145,6 +156,10 @@ margin-bottom: 12px;
   margin-right: 9px;
   display: flex;
   align-items: center;
+  
+  }
+  @media screen and (min-width: 1200px) {
+    @include text(400, 14px, 1.71);
   }
 }
 
