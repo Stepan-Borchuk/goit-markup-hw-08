@@ -486,19 +486,9 @@ background-color: darkmagenta;
 }
 
 .header {
-  padding-top: 25px;
-  padding-bottom: 32px;
   border-bottom: 1px solid #ececec;
-}
-
-.header__container {
-  align-items: center;
-  justify-content: space-between;
-}
-
-.header__navigation {
-  display: flex;
-  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .header__logo {
@@ -517,7 +507,7 @@ background-color: darkmagenta;
 }
 
 .header-list {
-  display: flex;
+  display: none;
 }
 
 .header-list__item:not(:last-child) {

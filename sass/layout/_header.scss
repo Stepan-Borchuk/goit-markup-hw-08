@@ -1,17 +1,21 @@
 .header {
-    padding-top: 25px;
-    padding-bottom: 32px;
+    // padding-top: 25px;
+    // padding-bottom: 32px;
     border-bottom: 1px solid #ececec;
+    padding-top: 16px;
+    padding-bottom: 16px;
   }
   
   .header__container {
-    align-items: center;
-    justify-content: space-between;
+    // align-items: center;
+    // justify-content: space-between;
   }
   
   .header__navigation {
-    display: flex;
-    align-items: center;
+    // display: flex;
+    // align-items: center;
+  
+
   }
   
   .header__logo {
@@ -27,7 +31,8 @@
   }
   
   .header-list {
-    display: flex;
+    // display: flex;
+    display: none;
   }
   
   .header-list__item:not(:last-child) {
