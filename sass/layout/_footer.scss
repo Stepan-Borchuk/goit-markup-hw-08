@@ -151,7 +151,7 @@
   
   .footer-form__input {
     @include text(400, 16px, 1.25);
-    width: 430px;
+    max-width: 430px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
