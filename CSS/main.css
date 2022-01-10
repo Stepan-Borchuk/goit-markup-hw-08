@@ -663,6 +663,12 @@ background-color: darkmagenta;
   justify-content: space-between;
 }
 
+@media screen and (min-width: 768px) {
+  .mob-menu {
+    display: none;
+  }
+}
+
 .close-menu-btn {
   display: flex;
   text-align: center;
