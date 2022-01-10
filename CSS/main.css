@@ -617,7 +617,7 @@ background-color: darkmagenta;
   text-align: center;
   justify-content: center;
   align-items: center;
-  position: absolute;
+  position: relative;
   margin-bottom: 30px;
   top: 10px;
   right: 15px;
@@ -1028,20 +1028,18 @@ background-color: darkmagenta;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 118px;
-  padding-bottom: 118px;
+  padding: 118px 60px;
 }
 
 @media screen and (min-width: 768px) {
   .hero .hero__container {
-    padding: 118px 60px;
+    padding: 118px 204px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .hero .hero__container {
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding: 200px 238px;
   }
 }
 
@@ -1353,7 +1351,7 @@ background-color: darkmagenta;
 
 .filter-list {
   display: flex;
-  margin-bottom: calc(50px - 15px);
+  margin-bottom: calc(40px - 15px);
   flex-wrap: wrap;
 }
 
@@ -1361,6 +1359,13 @@ background-color: darkmagenta;
   .filter-list {
     flex-wrap: nowrap;
     justify-content: center;
+    margin-bottom: calc(30px - 15px);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .filter-list {
+    margin-bottom: calc(50px - 15px);
   }
 }
 

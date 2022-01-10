@@ -1,7 +1,7 @@
 .open-menu-btn {
     margin-left: auto;
     @include flex();
-  position: absolute;
+  position: relative;
   margin-bottom: 30px;
   top: 10px;
   right: 15px;
